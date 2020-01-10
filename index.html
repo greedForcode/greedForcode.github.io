@@ -1,40 +1,115 @@
-<header class="site-header">
-    <div class="container">
-    <h1>Demo</h1>
-    <nav role="navigation" class="site-navigation">
-      <ul>
-        <li><a href="#">Link1</a></li>
-        <li><a href="#">Link2</a></li>
-        <li><a href="#">Link3</a></li>
-      </ul>
-    </nav>
-    </div>
-  </header>
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+h2{
+  text-align: center;
+  color: white;
+}
+
+#regForm {
+  background-color: blue;
+  margin:  0 auto;
+  font-family: Raleway;
+  padding: 100px;
+  width: 50%;
+  height: 25%;
+  min-width: 200px;
+  background-image: linear-gradient(0deg, white 50%, blue 50%);
+  border-radius: 1.5%;
+
+    
   
-  <section role="main" class="container">
-    <img src="" class="banner-image"/>
-    <div class="grid-row col-3">
+}
+img{
+  width: 150px;
+  height:150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;  
+}
+
+
+input {
+  padding: 10px;
+  width: 50%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: block;
+  background-color: yellow;
+ height: 300px;
+  width: auto;
+  background-color: powderblue;
+
+
+}
+.a{
+    
+  background-color: red;
       
-      <div class="grid-unit">
-        <img src="https://europeansting.files.wordpress.com/2019/11/nature.jpeg?w=610"/>
-        <p>image1 </p>
-      </div>
-      
-      <div class="grid-unit">
-        <img src=""/>
-        <p>image 2</p>
-      </div>
-      
-      <div class="grid-unit">
-        <img src=""/>
-        <p>image3 </p>
-      </div>
-      
-    </div>
-  </section>
+}
+
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+</style>
+<body>
   
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <p>next page <a href=""> goto</a>.</p>
+
+<div class="a">
+  
+<form id="regForm" action="/action_page.php">
+  <div class="b">
+  </div>
+  <img src="logo.png" >
+  <h2>Health Care </h2>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab">:
+    <p><input placeholder="email" oninput="this.className = ''" name="fname"></p>
+    <p><input placeholder="password" oninput="this.className = ''" name="lname"></p>
+    <button> hi </button>
+  </div>
+  
+
     </div>
-  </footer>
+  
+  
+  
+</form>
+</div>
+</div>
+
+</body>
+</html>
