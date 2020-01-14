@@ -1,1 +1,111 @@
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+#regForm {
+position: relative;
+  margin: 5%  auto;
+  font-family: Raleway;
+  padding: 10px;
+  
+  min-width: 40%;
+  min-height: 40%:;
+  max-width: 500px;
+  background-image: linear-gradient(0deg, #ffffff 50%, blue 50%);
+  border-radius: 1.5%;
+  margin-top: 60px;
+    
+  
+}
+input[type="text"] {
+
+       border:none; /* Get rid of the browser's styling */
+       border-bottom:1px solid black; /* Add your own border */
+
+    }
+
+
+h2{
+	text-align: center;
+	color:white;
+  margin-top: 10px;
+	margin-bottom:   1px;
+}
+
+img{
+	margin-top: 30px;
+  width: 200px;
+  height:150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+	
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+ input[type="password"]{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: white;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom:2px solid blue; 
+  font-size: 14px;
+}
+input[type="email"]{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: white;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+
+       border-bottom:2px solid blue; 
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: blue;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+body{
+  position: relative;
+	background-color: red;
+
+}
+input[type=checkbox]{
+	color;black;
+	position: relative; left:-43%;
+  margin-right: 20px;
+  margin-bottom: : 30px;
+}
